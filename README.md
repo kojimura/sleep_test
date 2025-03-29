@@ -18,7 +18,7 @@ Because Cloud Functions (Gen1 & Gen2) only support a max timeout of 540 seconds 
 ## Project Structure
 
 ```
-cloudrun/
+sleep_test/
  ├── main.py
  ├── requirements.txt
  └── Dockerfile 
