@@ -17,10 +17,12 @@ Because Cloud Functions (Gen1 & Gen2) only support a max timeout of 540 seconds 
 
 ## Project Structure
 
+```
 cloudrun/
  ├── main.py
  ├── requirements.txt
  └── Dockerfile 
+```
 
 ## Example Event Handling Logic
 
