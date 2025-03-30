@@ -65,7 +65,11 @@ gcloud eventarc triggers create storage-upload-trigger \
 1. Upload a test file:
 
 ```
-gcloud run services logs read sleep-handler --region=asia-northeast1
+echo "sleep_1min" > sleep_1min.txt
+gsutil cp sleep_1min.txt gs://YOUR_BUCKET_NAME/
+
+echo "sleep_10min" > sleep_10min.txt
+gsutil cp sleep_10min.txt gs://YOUR_BUCKET_NAME/
 ```
 
 2. Check Logs
